@@ -1,7 +1,7 @@
 import React from "react";
-import styled from "styled-components";
+import styles from "styled-components";
 
-const Cards = styled.div`
+const Cards = styles.div`
   border: 2px solid black;
   margin: 3%;
   background-color: #83D2E4;
