@@ -9,7 +9,7 @@ const Cards = styles.div`
   padding: 3%;
 `;
 
-export default function CharacterCard(name, species, gender) {
+export default function CharacterCard({name, species, gender}) {
   return (
     <Cards>
       <h3>Name:{name}</h3>
